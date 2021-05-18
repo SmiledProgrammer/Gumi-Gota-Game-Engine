@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Camera2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Group2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Label2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Layer2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Light2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Renderable2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\Sprite2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\buffers\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\buffers\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\buffers\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\OpenGLHelpFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\general\BasicOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\geometry\AngleTransformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\geometry\VectorTransformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\matrices\matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\trigonometry\Trigonometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\utils\Sorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\utils\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\stb_image\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Group3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Renderable3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Renderer3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Camera3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\utils\ModelLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\Light3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\CubeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\ErrorHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\DirectionParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\ParticleGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\SpreadParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\water\WaterTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\buffers\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\font-manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\texture-atlas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\texture-font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vertex-buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\edtaa3func.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\distance-field.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\platform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\text-buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\utf8-utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vertex-attribute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\FlyingCamera3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\WalkingCamera3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\3D\GraphicsScene3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\PhysicsScene3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\RigidBody3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\MoveableCamera3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\utils\RandomNumberGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\graphics\2D\GraphicsScene2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\BulletObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Engine Tester\src\BulletManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\OrientedBoundingBox3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\SphericalBoundingBox3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gumi Gota\Gumi Gota\src\physics\3D\AxisAlignedBoundingBox3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Camera2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Group2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Label2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Layer2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Light2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Renderable2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\Sprite2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\buffers\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\buffers\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\buffers\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\OpenGLHelpFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\general\BasicOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\general\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\geometry\AngleTransformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\geometry\VectorTransformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\matrices\matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\trigonometry\Trigonometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\maths\vectors\vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\utils\Sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\utils\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\GumiGota.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\Maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\stb_image\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Group3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Renderable3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Renderer3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Camera3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\utils\ModelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\Light3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\CubeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\ErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\DirectionParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\ParticleGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\particles\SpreadParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\water\WaterTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\buffers\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\AntTweakBar\include\AntTweakBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\config\ftconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\config\ftheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\config\ftmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\config\ftoption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\config\ftstdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svcid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svgldict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svgxval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svkern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svotval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svpfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svpostnm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svpscmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svpsinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svsfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svttcmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svtteng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svttglyf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svwinfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\services\svxf86nm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\autohint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftgloadr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftobjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftrfork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftserv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\fttrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\ftvalid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\psaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\pshints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\sfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\t1types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\internal\tttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftadvanc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftbbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftbdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftbzip2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftchapters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftcid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\fterrdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\fterrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftgasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftglyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftgxval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftgzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftincrem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftlcdfil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftlzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftmodapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftmoderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftotval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftoutln.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftpfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftrender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftsizes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftsnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftsynth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\fttrigon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\fttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftwinfnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ftxf86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\t1tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ttnameid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\tttables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\tttags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\freetype\ttunpat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\freetype\ft2build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\include\GL\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\edtaa3func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\font-manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\freetype-gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\texture-atlas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\texture-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vertex-buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\distance-field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\text-buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\utf8-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vec234.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\vertex-attribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\FlyingCamera3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Engine Tester\src\WalkingCamera3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\3D\GraphicsScene3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\PhysicsScene3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\RigidBody3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\MoveableCamera3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\utils\RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Engine Tester\src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\graphics\2D\GraphicsScene2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Engine Tester\src\GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Engine Tester\src\BulletObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Engine Tester\src\BulletManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\OrientedBoundingBox3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\SphericalBoundingBox3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gumi Gota\Gumi Gota\src\physics\3D\AxisAlignedBoundingBox3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\Skybox3D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\TextureLight2D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\Texture2D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\Color2D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\ColorLight2D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\BasicLight3D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\advanced.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\basic.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\build.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\credits.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\glew.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\glxew.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\index.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\install.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\log.html" />
+    <None Include="Gumi Gota\Gumi Gota\vendor\freetype-gl\windows\glew\doc\wglew.html" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\AboveWater3D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\BelowWater3D.shader" />
+    <None Include="Gumi Gota\Gumi Gota\res\shaders\Particle3D.shader" />
+  </ItemGroup>
+</Project>
